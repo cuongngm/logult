@@ -5,7 +5,7 @@ from pathlib import Path
 from collections import OrderedDict
 
 
-def setup_logging(save_dir, log_config='logger_config.json', default_level=logging.INFO):
+def setup_logging(save_dir, log_config='logger_rewrite/logger_config.json', default_level=logging.INFO):
     log_config = Path(__file__).parent.joinpath(log_config)
     if log_config.is_file():
         config = read_json(log_config)

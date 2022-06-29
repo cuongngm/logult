@@ -1,6 +1,6 @@
 import logging
 from pathlib import Path
-from logger import setup_logging
+from logger_rewrite.logger import setup_logging
 
 
 def setup_log(save_dir='./', name_exp='train'):

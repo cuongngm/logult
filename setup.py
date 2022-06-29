@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="logger_rewrite",
-    version="0.1",
+    version="0.2",
     author="cuongngm",
     author_email="cuonghip0908@gmail.com",
     description="log scripts",
