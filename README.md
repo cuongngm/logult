@@ -6,8 +6,9 @@ pip install logger_rewrite
 ```
 
 ### Use
-```bash
-from logger_rewrite import setup_log
-logger = setup_log(save_dir='saved')
-logger.info('Hello world')
-```
+<!--
+![](assets/hello.png)
+-->
+<div align=center>
+<img src="assets/hello.png" width="500" height="100" />
+</div>
