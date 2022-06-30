@@ -1,6 +1,6 @@
 import logging
 import logging.config
-from utils import Cfg
+from logger_rewrite.utils import Cfg
 
 
 def setup_logging(save_dir, default_level=logging.INFO):
