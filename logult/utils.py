@@ -3,7 +3,7 @@ import json
 
 
 def download_config(id):
-    url = 'https://raw.githubusercontent.com/cuongngm/logger_rewrite/why/config/{}'.format(id)
+    url = 'https://raw.githubusercontent.com/cuongngm/logult/why/config/{}'.format(id)
     r = requests.get(url)
     config = r.text
     return config

@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="logger_rewrite",
-    version="0.3",
+    name="logult",
+    version="0.1",
     author="cuongngm",
     author_email="cuonghip0908@gmail.com",
     description="log scripts",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/cuongngm/logger_rewrite",
+    url="https://github.com/cuongngm/logult",
     packages=setuptools.find_packages(),
     install_requires=['requests'
     ],

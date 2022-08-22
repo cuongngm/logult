@@ -2,13 +2,12 @@
 Easy way to log everything
 ### Install
 ```bash
-pip install logger_rewrite
+pip install logult
 ```
 
 ### Use
-<!--
-![](assets/hello.png)
--->
-<div align=center>
-<img src="assets/hello.png" width="500" height="100" />
-</div>
+```
+from logult import setup_log
+logger=  setup_log(save_dir='saved', name_exp='info.log')
+logger.info('Hello')
+```
